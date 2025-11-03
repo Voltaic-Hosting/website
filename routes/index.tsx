@@ -9,11 +9,11 @@ export default define.page(function Home() {
         <title>Voltaic Hosting - Sustainable. Secure. Private.</title>
         <meta
           name="description"
-          content="Voltaic Hosting - Sustainable. Secure. Private. Hosting solutions designed with sustainability, security and privacy at the core. Specializing in Voltaic Panel, Server Hardware, Data Centers, Privacy & Security, Consulting, and OPNsense/PFsense firewall configuration."
+          content="Voltaic Hosting - Sustainable. Secure. Private. Hosting solutions designed with sustainability, security and privacy at the core. Specializing in Voltaic Panel, Server Hardware, Data Centers, MicroVMs, Consulting, and OPNsense/PFsense firewall configuration."
         />
         <meta name="keywords" content="voltaic hosting, hosting, data centers, server hardware, privacy, security, sustainable hosting, enterprise hosting, texas hosting" />
         <meta name="author" content="Voltaic Hosting LLC" />
-        <meta name="theme-color" content="#000000" />
+        <meta name="theme-color" content="#0a0e1a" />
         
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Voltaic Hosting - Sustainable. Secure. Private." />
@@ -30,20 +30,22 @@ export default define.page(function Home() {
         
         <link rel="canonical" href="https://voltaic.host" />
       </Head>
-      <div class="min-h-screen flex flex-col bg-black">
-        <header class="bg-black border-b border-gray-900 sticky top-0 z-50 backdrop-blur-sm bg-black/90">
-          <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <div class="min-h-screen flex flex-col bg-grid-pattern relative">
+        <div class="absolute inset-0 bg-gradient-to-b from-[#050810] via-[#0a0e1a] to-[#0f1419] opacity-90 -z-10"></div>
+        
+        <header class="glass-effect sticky top-0 z-50 border-b border-[#1a2332]">
+          <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
             <div class="flex items-center justify-between">
-              <a href="/">
+              <a href="/" class="transition-transform hover:scale-105">
                 <img
                   src="/logo.png"
                   alt="Voltaic Hosting"
-                  class="h-8 w-auto"
+                  class="h-9 w-auto"
                 />
               </a>
               <a
                 href="/contact"
-                class="px-4 py-2 bg-white text-black rounded-lg hover:bg-gray-100 transition-colors text-sm font-medium"
+                class="button-secondary px-5 py-2.5 rounded-lg text-sm font-semibold"
               >
                 Contact
               </a>
@@ -51,88 +53,91 @@ export default define.page(function Home() {
           </nav>
         </header>
 
-        <main class="flex-grow">
-          <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-            <div class="text-center mb-16">
-              <h1 class="text-5xl md:text-6xl font-bold text-white mb-6 tracking-tight">
-                Voltaic Hosting
+        <main class="flex-grow relative">
+          <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+            <div class="text-center mb-12">
+              <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 tracking-tight">
+                <span class="gradient-text">Voltaic Hosting</span>
               </h1>
-              <p class="text-2xl md:text-3xl text-gray-300 mb-4 font-light">
+              <p class="text-2xl md:text-3xl font-light mb-4 text-white/90">
                 Sustainable. Secure. Private.
               </p>
-              <p class="text-lg text-gray-400 mt-6 max-w-2xl mx-auto">
+              <p class="text-xl md:text-2xl text-white/60 mt-6 max-w-3xl mx-auto leading-relaxed">
                 Hosting solutions designed with sustainability, security and privacy at the core.
               </p>
             </div>
 
-            <div class="mb-20">
-              <h2 class="text-3xl font-bold text-white mb-8 text-center">
+            <div class="mb-16">
+              <h2 class="text-2xl md:text-3xl font-bold text-white mb-8 text-center">
                 Specializations
               </h2>
               <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="bg-black border border-gray-800 rounded-lg p-6 hover:border-gray-600 transition-colors">
-                  <h3 class="text-xl font-semibold text-white mb-2">
+                <div class="bg-[#0f1419] border border-[#1a2332] rounded-xl p-6 backdrop-blur-sm">
+                  <h3 class="text-lg font-bold text-white mb-2">
                     Voltaic Panel
                   </h3>
-                  <p class="text-gray-400 text-sm">
-                    Advanced control panel for hosting management
+                  <p class="text-white/60 text-sm leading-relaxed">
+                    Modern, user-friendly control panel for hosting management
                   </p>
                 </div>
-                <div class="bg-black border border-gray-800 rounded-lg p-6 hover:border-gray-600 transition-colors">
-                  <h3 class="text-xl font-semibold text-white mb-2">
+                <div class="bg-[#0f1419] border border-[#1a2332] rounded-xl p-6 backdrop-blur-sm">
+                  <h3 class="text-lg font-bold text-white mb-2">
                     Server Hardware
                   </h3>
-                  <p class="text-gray-400 text-sm">
+                  <p class="text-white/60 text-sm leading-relaxed">
                     Energy-efficient enterprise-grade server infrastructure
                   </p>
                 </div>
-                <div class="bg-black border border-gray-800 rounded-lg p-6 hover:border-gray-600 transition-colors">
-                  <h3 class="text-xl font-semibold text-white mb-2">
+                <div class="bg-[#0f1419] border border-[#1a2332] rounded-xl p-6 backdrop-blur-sm">
+                  <h3 class="text-lg font-bold text-white mb-2">
                     Data Centers
                   </h3>
-                  <p class="text-gray-400 text-sm">
+                  <p class="text-white/60 text-sm leading-relaxed">
                     Secure and sustainable data center solutions
                   </p>
                 </div>
-                <div class="bg-black border border-gray-800 rounded-lg p-6 hover:border-gray-600 transition-colors">
-                  <h3 class="text-xl font-semibold text-white mb-2">
-                    Privacy & Security
+                <div class="bg-[#0f1419] border border-[#1a2332] rounded-xl p-6 backdrop-blur-sm">
+                  <h3 class="text-lg font-bold text-white mb-2">
+                    MicroVMs
                   </h3>
-                  <p class="text-gray-400 text-sm">
-                    End-to-end privacy and security protocols, compliance, and software
+                  <p class="text-white/60 text-sm leading-relaxed">
+                    Lightweight, isolated virtual machines for secure deployments and containerized workloads
                   </p>
                 </div>
-                <div class="bg-black border border-gray-800 rounded-lg p-6 hover:border-gray-600 transition-colors">
-                  <h3 class="text-xl font-semibold text-white mb-2">
+                <div class="bg-[#0f1419] border border-[#1a2332] rounded-xl p-6 backdrop-blur-sm">
+                  <h3 class="text-lg font-bold text-white mb-2">
                     Consulting
                   </h3>
-                  <p class="text-gray-400 text-sm">
+                  <p class="text-white/60 text-sm leading-relaxed">
                     Expert guidance for your hosting infrastructure needs
                   </p>
                 </div>
-                <div class="bg-black border border-gray-800 rounded-lg p-6 hover:border-gray-600 transition-colors">
-                  <h3 class="text-xl font-semibold text-white mb-2">
+                <div class="bg-[#0f1419] border border-[#1a2332] rounded-xl p-6 backdrop-blur-sm">
+                  <h3 class="text-lg font-bold text-white mb-2">
                     Firewall Configuration
                   </h3>
-                  <p class="text-gray-400 text-sm">
+                  <p class="text-white/60 text-sm leading-relaxed">
                     OPNsense / PFsense firewall configuration and management
                   </p>
                 </div>
               </div>
             </div>
 
-            <div class="bg-black border border-gray-800 rounded-xl p-12 text-center">
-              <h2 class="text-3xl font-bold text-white mb-4">Get Started</h2>
-              <p class="text-gray-400 mb-8 max-w-2xl mx-auto">
-                Contact our team to discuss your hosting needs. We're here to
-                help build sustainable, secure, and private infrastructure on prem or in the cloud.
-              </p>
-              <a
-                href="/contact"
-                class="inline-block px-8 py-3 bg-white text-black rounded-lg hover:bg-gray-100 transition-colors font-medium"
-              >
-                Contact Us
-              </a>
+            <div class="bg-[#0f1419] border border-[#1a2332] rounded-2xl p-12 md:p-16 text-center relative overflow-hidden">
+              <div class="absolute inset-0 bg-gradient-to-br from-[#00d4ff]/5 via-transparent to-[#0066ff]/5"></div>
+              <div class="relative z-10">
+                <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">Get Started</h2>
+                <p class="text-xl text-white/70 mb-10 max-w-3xl mx-auto leading-relaxed">
+                  Contact our team to discuss your hosting needs. We're here to
+                  help build sustainable, secure, and private infrastructure on prem or in the cloud.
+                </p>
+                <a
+                  href="/contact"
+                  class="button-primary inline-block px-10 py-4 rounded-xl text-lg font-semibold"
+                >
+                  Contact Us
+                </a>
+              </div>
             </div>
           </section>
         </main>

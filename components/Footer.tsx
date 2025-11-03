@@ -1,33 +1,34 @@
 export default function Footer() {
   return (
-    <footer class="bg-black border-t border-gray-900 text-gray-300 py-12 mt-20">
+    <footer class="border-t border-[#1a2332] text-white/60 py-16 mt-24 relative">
+      <div class="absolute inset-0 bg-gradient-to-t from-[#0f1419]/50 to-transparent -z-10"></div>
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mb-12">
           <div>
-            <h3 class="text-xl font-semibold text-white mb-4">
+            <h3 class="text-2xl font-bold text-white mb-4">
               Voltaic Hosting LLC
             </h3>
-            <p class="text-sm text-gray-400">
+            <p class="text-white/70 text-lg">
               Sustainable. Secure. Private.
             </p>
           </div>
           <div>
-            <h4 class="text-lg font-semibold text-white mb-4">Contact</h4>
-            <p class="text-sm mb-2">
+            <h4 class="text-xl font-bold text-white mb-5">Contact</h4>
+            <p class="mb-3">
               <a
                 href="mailto:team@voltaic.host"
-                class="text-white hover:text-gray-300 transition-colors"
+                class="text-[#00d4ff] hover:text-[#00f5ff] transition-colors text-lg font-semibold hover:underline underline-offset-4"
               >
                 team@voltaic.host
               </a>
             </p>
-            <p class="text-xs text-gray-400">
+            <p class="text-sm text-white/50">
               24-48 hour response time on business days M-F
             </p>
           </div>
         </div>
-        <div class="mt-8 pt-8 border-t border-gray-900 text-center text-sm text-gray-400">
-          <p>
+        <div class="pt-8 border-t border-[#1a2332] text-center">
+          <p class="text-white/50 mb-6">
             &copy; {new Date().getFullYear()}{" "}
             Voltaic Hosting LLC. All rights reserved.
           </p>
