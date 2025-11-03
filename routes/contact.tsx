@@ -36,7 +36,7 @@ export default define.page(function Contact() {
         </header>
 
         <main class="flex-grow relative">
-          <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
+          <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
             <div class="text-center mb-16">
               <h1 class="text-5xl md:text-6xl lg:text-7xl font-extrabold mb-6">
                 <span class="gradient-text">Contact Us</span>
