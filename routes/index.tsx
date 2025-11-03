@@ -70,7 +70,7 @@ export default define.page(function Home() {
                 Specializations
               </h2>
               <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="bg-gray-950 border border-gray-900 rounded-lg p-6 hover:border-gray-800 transition-colors">
+                <div class="bg-black border border-gray-800 rounded-lg p-6 hover:border-gray-600 transition-colors">
                   <h3 class="text-xl font-semibold text-white mb-2">
                     Voltaic Panel
                   </h3>
@@ -78,7 +78,7 @@ export default define.page(function Home() {
                     Advanced control panel for hosting management
                   </p>
                 </div>
-                <div class="bg-gray-950 border border-gray-900 rounded-lg p-6 hover:border-gray-800 transition-colors">
+                <div class="bg-black border border-gray-800 rounded-lg p-6 hover:border-gray-600 transition-colors">
                   <h3 class="text-xl font-semibold text-white mb-2">
                     Server Hardware
                   </h3>
@@ -86,7 +86,7 @@ export default define.page(function Home() {
                     Energy-efficient enterprise-grade server infrastructure
                   </p>
                 </div>
-                <div class="bg-gray-950 border border-gray-900 rounded-lg p-6 hover:border-gray-800 transition-colors">
+                <div class="bg-black border border-gray-800 rounded-lg p-6 hover:border-gray-600 transition-colors">
                   <h3 class="text-xl font-semibold text-white mb-2">
                     Data Centers
                   </h3>
@@ -94,7 +94,7 @@ export default define.page(function Home() {
                     Secure and sustainable data center solutions
                   </p>
                 </div>
-                <div class="bg-gray-950 border border-gray-900 rounded-lg p-6 hover:border-gray-800 transition-colors">
+                <div class="bg-black border border-gray-800 rounded-lg p-6 hover:border-gray-600 transition-colors">
                   <h3 class="text-xl font-semibold text-white mb-2">
                     Privacy & Security
                   </h3>
@@ -102,7 +102,7 @@ export default define.page(function Home() {
                     End-to-end privacy and security protocols, compliance, and software
                   </p>
                 </div>
-                <div class="bg-gray-950 border border-gray-900 rounded-lg p-6 hover:border-gray-800 transition-colors">
+                <div class="bg-black border border-gray-800 rounded-lg p-6 hover:border-gray-600 transition-colors">
                   <h3 class="text-xl font-semibold text-white mb-2">
                     Consulting
                   </h3>
@@ -110,7 +110,7 @@ export default define.page(function Home() {
                     Expert guidance for your hosting infrastructure needs
                   </p>
                 </div>
-                <div class="bg-gray-950 border border-gray-900 rounded-lg p-6 hover:border-gray-800 transition-colors">
+                <div class="bg-black border border-gray-800 rounded-lg p-6 hover:border-gray-600 transition-colors">
                   <h3 class="text-xl font-semibold text-white mb-2">
                     Firewall Configuration
                   </h3>
@@ -121,7 +121,7 @@ export default define.page(function Home() {
               </div>
             </div>
 
-            <div class="bg-gray-950 border border-gray-900 rounded-xl p-12 text-center">
+            <div class="bg-black border border-gray-800 rounded-xl p-12 text-center">
               <h2 class="text-3xl font-bold text-white mb-4">Get Started</h2>
               <p class="text-gray-400 mb-8 max-w-2xl mx-auto">
                 Contact our team to discuss your hosting needs. We're here to
