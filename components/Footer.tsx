@@ -11,6 +11,9 @@ export default function Footer() {
             <p class="text-white/70 text-lg">
               Sustainable. Secure. Private.
             </p>
+            <p class="text-white/60 text-sm mt-2">
+              USA based company
+            </p>
           </div>
           <div>
             <h4 class="text-xl font-bold text-white mb-5">Contact</h4>
