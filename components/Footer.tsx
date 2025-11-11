@@ -35,8 +35,6 @@ export default function Footer() {
             &copy; {new Date().getFullYear()}{" "}
             Voltaic Hosting LLC. All rights reserved.
           </p>
-          <div id="wcb" class="carbonbadge wcb-d mt-4"></div>
-          <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
         </div>
       </div>
     </footer>

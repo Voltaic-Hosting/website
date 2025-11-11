@@ -98,7 +98,7 @@ export default define.page(function Contact() {
                     </li>
                     <li class="flex items-start gap-3">
                       <span class="text-[#00d4ff] mt-1">•</span>
-                      <span><strong class="text-white">Consulting</strong> - Expert guidance for your hosting infrastructure needs</span>
+                      <span><strong class="text-white">Reticulum Networks</strong> - Decentralized encrypted networking deployment.</span>
                     </li>
                     <li class="flex items-start gap-3">
                       <span class="text-[#00d4ff] mt-1">•</span>

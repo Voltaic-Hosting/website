@@ -106,10 +106,10 @@ export default define.page(function Home() {
                 </div>
                 <div class="bg-[#0f1419] border border-[#1a2332] rounded-xl p-6 backdrop-blur-sm">
                   <h3 class="text-lg font-bold text-white mb-2">
-                    Consulting
+                    Reticulum Networks
                   </h3>
                   <p class="text-white/60 text-sm leading-relaxed">
-                    Expert guidance for your hosting infrastructure needs
+                    Decentralized encrypted networking deployment.
                   </p>
                 </div>
                 <div class="bg-[#0f1419] border border-[#1a2332] rounded-xl p-6 backdrop-blur-sm">
